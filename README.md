@@ -1,18 +1,38 @@
-# Financial Services App
-Cross-platform financial services app with contact form, product listings, and complaint system. Supports RTL (Arabic) &amp; LTR (English). Built with Flutter using Provider, responsive design, and mock API
+# Financial Services Flutter App
 
-![App Screenshot](screenshots/main.png) *(add later after development)*
+## Overview
+A cross-platform Flutter app showcasing core financial services flows:
+- Main navigation
+- Contact Us form (with caching)
+- Products listing (mocked API)
+- Complaint submission (with caching)
+- About Company
 
-A Flutter implementation for a financial services company's mobile application.
+## Architecture
+ib/
+├─ constants/  # styles, enums, constants
+├─ data/       # models & repositories
+├─ logic/      # BLoC (Cubit) state management
+├─ view/       # screens & widgets
+└─ utils/      # themes, validators, local_storage
 
 ## Features
-- [x] Main navigation screen
-- [x] Contact Us form
-- [x] Product listings
-- [x] Complaint submission
-- [ ] About Company (in progress)
+- Bloc/Cubit for state management
+- SharedPreferences caching
+- Custom slide transitions
+- RTL & LTR support
+- Form validation
+- Unit & widget tests
 
 ## Getting Started
-```bash
-flutter pub get
-flutter run
+1. `git clone ...`
+2. `flutter pub get`
+3. Add `assets/logo.png`
+4. `flutter run`
+
+## Running Tests
+flutter test
+
+## Screenshots
+![Home](screenshots/home.png)
+![Products](screenshots/products.png)
