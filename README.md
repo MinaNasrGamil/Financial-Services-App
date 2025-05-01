@@ -6,7 +6,7 @@ A cross-platform mobile application showcasing core financial services flows, bu
 
 ## 📑 Table of Contents
 
-1. [Overview](#🚀)
+1. [Overview](#overview)
 2. [Architecture & Folder Structure](#architecture--folder-structure)
 3. [Features](#features)
 4. [Getting Started](#getting-started)
