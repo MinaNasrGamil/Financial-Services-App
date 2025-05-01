@@ -164,18 +164,17 @@ Tests cover state transitions and UI validation flows.
 
 ## 📸 Screenshots
 
-<!-- Replace with your actual screenshot paths -->
 | Home Screen | Products Screen |
 | :---------: | :-------------: |
-| ![](screenshots/home.png) | ![](screenshots/products.png) |
+| ![](assets/screenshots/home_screen.jpg) | ![](assets/screenshots/products_screen.jpg) |
 
 | Contact Us | Submit Complaint |
 | :--------: | :---------------: |
-| ![](screenshots/contact.png) | ![](screenshots/complaint.png) |
+| ![](assets/screenshots/contact_us_screen.jpg) | ![](assets/screenshots/complaint_screen.jpg) |
 
-| About Company | Map View |
-| :-----------: | :--------: |
-| ![](screenshots/about.png) | ![](screenshots/map.png) |
+| About Company | Location permisssion | Map view |
+| :-----------: | :--------: | :--------: |
+| ![](assets/screenshots/about_compant_screen.jpg) | ![](assets/screenshots/location_permission_screen.jpg) | ![](assets/screenshots/location_widget.jpg) |
 
 ---
 
